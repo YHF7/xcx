@@ -1,0 +1,25 @@
+<!--pages/my/my.wxml-->
+<import src="./title.wxml"/>
+<include src="header.wxml"/>
+<template is="title" data="{{con:'标题参数'}}"></template>
+<button bindtap='show'>显示/隐藏</button>
+<view class='msg' wx:if="{{bol}}">{{msg}}</view>
+
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{800}}">
+  <block wx:for="{{imgUrls}}" wx:key='index'>
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 循环列表 -->
+<view wx:for="{{arr}}" wx:key="index" wx:for-item="obj" bindtap='get' data-abc='{{obj}}'>
+  {{index}} - 用户名:{{obj.name}}
+  密码:{{obj.pwd}}
+</view>
+<!-- <view class='wrap'>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</view> -->

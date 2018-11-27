@@ -1,0 +1,54 @@
+/**index.wxss**/
+
+.content{
+  font-family:微软雅黑，宋体;
+  font-size:14px;
+  height:600px;
+  width:100%;
+  background-color: #111111;
+  color:#ffffff;
+}
+.today{
+  padding-top: 70rpx;
+  height:50%;
+}
+.temp{
+  font-size: 40px;
+  text-align: center;
+}
+.new{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.city{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20rpx;
+  margin-right: 10rpx;
+}
+.type{
+ font-size: 16px;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.date{
+ font-size: 15px;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.weather{
+ font-size: 13px;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.hr{
+  margin-top:10px;
+  border:1px solid #ffffff;
+  opacity:0.2;
+}
+.future{
+  margin-top:20px;
+  display:flex;
+  flex-direction: row
+}

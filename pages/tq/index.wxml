@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="content">
+  <view class="today">
+    <view class="info">
+      <view class="temp">{{temp}}</view>
+      <view class="type">{{type}}</view>
+      <view class="city">{{city}}</view>
+      <view class="date">{{date}}</view>
+      <view class="weather">PM2.5:{{pm}}</view>
+      <view class="weather">{{weather}}</view>
+    </view>
+    <view class="hr"></view>
+    <view class="future">
+      <block wx:for="{{futureWeather}}">
+        <view style='margin:5px;'>
+          <view class="new">{{item.date}}</view>
+          <view class="new">{{item.weather}}</view>
+          <view class="new">{{item.temperature}}</view>
+          <view class="new">{{item.wind}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+
+
+
+</view>

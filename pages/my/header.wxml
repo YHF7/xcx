@@ -1,0 +1,4 @@
+<!-- header.wxml
+  include引入template以外的内容
+ -->
+<view>include引入的模板</view>

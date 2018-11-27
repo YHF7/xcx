@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/tq/index",
+    "pages/cs/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "锋的程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my2.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "地图",
+        "iconPath": "/images/dt.png",
+        "selectedIconPath": "/images/dt2.png"
+      },
+      {
+        "pagePath": "pages/cs/index",
+        "text": "天气",
+        "iconPath": "/images/tq.png",
+        "selectedIconPath": "/images/tq2.png"
+      }
+    ]
+  },
+  "debut": true
+}

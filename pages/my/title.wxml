@@ -1,0 +1,4 @@
+<!-- title.wxml -->
+<template name="title">
+    <view>{{con}}</view>
+</template>
